@@ -22,7 +22,7 @@ jobs:
         with:
           args: >
             -Dsonar.organization=shanefindley
-            -Dsonar.projectKey=ShaneFindley_react-base
+            -Dsonar.projectKey=ShaneFindley_sc-dummy
             -Dsonar.javascript.lcov.reportPaths=./coverage/lcov.info
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
